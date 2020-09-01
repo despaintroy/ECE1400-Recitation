@@ -1,6 +1,8 @@
-# Working with the Command Line
+# Working with the Command Line (Cygwin)
 
 Note: This covers very basic usage of the commands we used in recitation as well as a few extras that may be useful to you. There's a lot more you can do with them, so look them up online if you're interested!
+
+<br>
 
 ## Navigating Directories
 | Command | Example | Description |
