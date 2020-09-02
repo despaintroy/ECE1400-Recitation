@@ -37,12 +37,12 @@ Tip: If you get lost in the filesystem in the command line, type `cd` (with a sp
 ## Hello World Program Example
 
 ```c
-#include <stdio.h>
+#include <stdio.h>              // Allow the program to print out
 
-int main() {
-	printf("Hello World!");
+int main() {                    // Tells the program where to start
+    printf("Hello World!");     // Print text
 	
-	getchar(); 
-	return 0;
+    getchar();                  // Wait for user to press enter
+    return 0;                   // End the program
 }
 ```
