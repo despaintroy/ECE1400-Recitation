@@ -1,6 +1,6 @@
 # Working with the Command Line (Cygwin)
 
-Note: This covers very basic usage of the commands we used in recitation as well as a few extras that may be useful to you. There's a lot more you can do with them, so look them up online if you're interested!
+Note: This covers very basic usage of the commands we used in recitation as well as a few extras that may be useful to you. There's a lot more you can do with them, so look these up online if you're interested!
 
 <br>
 
@@ -23,3 +23,14 @@ Note: This covers very basic usage of the commands we used in recitation as well
 | `cat` | `cat hello.c` | Concatenate. Prints the contents of a text file to the command line. |
 | `gcc` | `gcc hello.c -o hello.exe` | Compiles C code and creates an executable file that the computer can run. Use `./hello.exe` to run the executable file.  |
 |  | `_________________________` |  |
+
+```c
+#include <stdio.h>
+
+int main() {
+	printf("Hello World!");
+	
+	getchar(); 
+	return 0;
+}
+```
