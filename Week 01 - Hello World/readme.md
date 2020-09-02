@@ -1,6 +1,8 @@
 # Compiling C from the Command Line
 
-Note: This covers very basic usage of the commands we used in recitation as well as a few extras that may be useful to you. There's a lot more you can do with them, so look these up online if you're interested!
+This covers very basic usage of the commands we used in recitation as well as a few extras that may be useful to you. There's a lot more you can do with them, so look these up online if you're interested!
+
+Tip: If you get lost in the filesystem in the command line, type `cd` (with a space after) then drag and drop a folder from Windows explorer into Cygwin. This will automatically paste in the correct filepath to that location
 
 
 <br>
