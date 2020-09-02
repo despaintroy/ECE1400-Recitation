@@ -7,7 +7,7 @@ Tip: If you get lost in the filesystem in the command line, type `cd` (with a sp
 
 <br>
 
-## Navigating Directories
+## Navigating Files & Folders
 
 | Command | Example | Description |
 | ------- | ----- | ------- |
