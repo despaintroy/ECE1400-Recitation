@@ -1,22 +1,30 @@
 # Reading Input from the User
 
+## Example: Double a Number
+
+This program will only run in Visual Studio. If you are running it from any other program (ex. Cygwin), you will use `scanf()` instead of `scanf_s()` to read user input. 
+
 ```c
 #include <stdio.h>
 
 int main(void) {
-  
-  int number;
-  int doubled;
+    
+    // Declare variables
+    int number;
+    int doubled;
 
-  printf("Enter an integer: ");
-  scanf_s("%d", &number);
+    // Get an integer from the user and store it in 'number'
+    printf("Enter an integer: ");
+    scanf_s("%d", &number);
 
-  doubled = 2 * number;
+    // Multiply 'number' by 2 and store it in 'doubled'
+    doubled = 2 * number;
 
-  printf("Your number doubled is %d", doubled);
-  
-  getchar(); 
-  getchar();
-  return 0;
+    // Print the result
+    printf("Your number doubled is %d", doubled);
+    
+    getchar(); 
+    getchar();
+    return 0;
 }
 ```

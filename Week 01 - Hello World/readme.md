@@ -34,7 +34,7 @@ Tip: If you get lost in the filesystem in the command line, type `cd` (with a sp
 
 <br>
 
-## Hello World Program Example
+## Example: Print Hello World
 
 ```c
 #include <stdio.h>              // Allow the program to print out
