@@ -1,6 +1,6 @@
 # Reading Input from the User
 
-These programs will only run in Visual Studio. If you are running it from any other program (ex. Cygwin), you will use `scanf()` instead of `scanf_s()` to read user input.
+This program will only run in Visual Studio. If you are running it from any other program (ex. Cygwin), you will use `scanf()` instead of `scanf_s()` to read user input.
 
 <br>
 
