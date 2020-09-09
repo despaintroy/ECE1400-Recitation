@@ -4,7 +4,7 @@ This program will only run in Visual Studio. If you are running it from any othe
 
 <br>
 
-## Example: Double an Integer
+## Example: Doubling an Integer
  
 
 ```c
