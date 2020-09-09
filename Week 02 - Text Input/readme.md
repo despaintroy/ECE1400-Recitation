@@ -55,7 +55,7 @@ int main(void) {
     circumference = 2 * pi * radius;
     area = pi * radius * radius;
 
-    Print the results
+    // Print the results
     printf("Circumference is %f \n", circumference);
     printf("Area is %f \n", area);
 
