@@ -39,7 +39,7 @@ int main(void) {
 
 ## Example: Tens Place Selector
 
-Have the user enter any integer, then print only the digit in the 10s place.
+Have the user enter any integer, then print only the digit in the 10s place. Ex. 1234 -> 3
  
 ```c
 #include <stdio.h>
