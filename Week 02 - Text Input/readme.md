@@ -26,8 +26,6 @@ int main(void) {
     // Print the result
     printf("Your number doubled is %d", doubled);
     
-    getchar(); 
-    getchar();
     return 0;
 }
 ```
