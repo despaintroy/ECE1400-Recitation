@@ -26,8 +26,6 @@ int main(void) {
     // Print the result
     printf("The volume of the cube is %d", volume);
 
-    getchar();
-    getchar();
     return 0;
 }
 ```
@@ -53,8 +51,6 @@ int main(void) {
     // Print the same values back to the user
     printf("The three values are %d, %d, and %d.", a, b, c);
 
-    getchar();
-    getchar();
     return 0;
 }
 ```
