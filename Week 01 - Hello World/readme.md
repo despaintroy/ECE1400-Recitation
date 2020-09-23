@@ -41,7 +41,6 @@ Tip: If you get lost in the filesystem in the command line, type `cd` (with a sp
 
 int main() {                    // Tells the program where to start
     printf("Hello World!");     // Print text
-    getchar();                  // Wait for user to press enter
     return 0;                   // End the program
 }
 ```
