@@ -1,6 +1,44 @@
-# 'IF' Statement in a Loop
+# Selection Statements & Loops
 
+### IF Statement
 
+```
+if (condition) { 
+    statements; 
+}
+```
+
+### IF...ELSE Statements
+
+```
+if (condition) { 
+    statements; 
+}
+else {
+    statements;
+}
+```
+
+### WHILE Loop
+
+```
+while (condition) {
+    statements;
+}
+```
+
+### DO...WHILE Loop
+
+```
+do {
+    statements;
+}
+while (condition);
+```
+
+<br>
+
+## Example: Find the Largest Number
 
 ```c
 #import <stdio.h>
@@ -23,7 +61,8 @@ int main(void) {
             largest = num;
         }
 
-    } while (num > 0);
+    } 
+    while (num > 0);
 
     printf("\nThe largest number entered is: %d\n", largest);
 }
