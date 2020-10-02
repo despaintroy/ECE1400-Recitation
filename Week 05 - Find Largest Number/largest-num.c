@@ -18,7 +18,8 @@ int main(void) {
             largest = num;
         }
 
-    } while (num > 0);
+    }
+    while (num > 0);
 
     printf("\nThe largest number entered is: %d\n", largest);
 }
