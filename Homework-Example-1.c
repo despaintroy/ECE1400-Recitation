@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /*******************************************************************************
 *
 * Function Title: main
@@ -23,11 +25,6 @@
 *
 *******************************************************************************/
 
-
-
-#include <stdio.h>
-
-// Begin
 int main(void) {
 
     // Declare variables 'edge' and 'volume'
@@ -43,6 +40,5 @@ int main(void) {
     // Print the result
     printf("The volume of the cube is %d", volume);
 
-    // End
     return 0;
 }
