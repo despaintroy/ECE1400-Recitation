@@ -11,7 +11,6 @@
 * Outputs: int 0
 *
 * PSEUDOCODE:
-*
 * Begin
 *   initialize value to be operated on
 *   x = myFunction(y)
@@ -36,13 +35,15 @@ int main()
 
 /*******************************************************************************
 * Function title: myFunction
+*
 * Summary: This function multiplies a number by 5.
+*
 * Inputs:
 *      y: number to be multiplied by 5
 * Outputs:
 *      an integer that is the result of the multiplication
 *
-* Pseudocode:
+* PSEUDOCODE:
 * Begin
 *     initialize x to be y * 5
 *     return value of x
