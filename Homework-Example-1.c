@@ -1,27 +1,26 @@
 /*******************************************************************************
-
-Function Title: main
-
-Summary:
-Calculates the volume of a cube after asking
-the user to enter the side length.
-
-Inputs: none
-Outputs: none
-
-Compile instructions: gcc homework_example.c –o homework_example.exe
-
-********************************************************************************
-
-PSEUDOCODE
-
-Begin
-    Declare variables 'edge' and 'volume'
-    Get the edge length from the user
-    Calculate volume = edge * edge * edge
-    Print the result
-End
-
+*
+* Function Title: main
+*
+* Summary:
+* Calculates the volume of a cube after asking
+* the user to enter the side length.
+*
+* Inputs: none
+* Outputs: none
+*
+* Compile instructions: gcc homework_example.c –o homework_example.exe
+*
+*
+* PSEUDOCODE:
+*
+* Begin
+*     Declare variables 'edge' and 'volume'
+*     Get the edge length from the user
+*     Calculate volume = edge * edge * edge
+*     Print the result
+* End
+*
 *******************************************************************************/
 
 
