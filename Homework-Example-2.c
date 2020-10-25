@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int myFunction(int y);
+
 /*******************************************************************************
 * Function title: main
 *
