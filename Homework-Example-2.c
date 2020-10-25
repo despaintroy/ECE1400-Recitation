@@ -10,7 +10,7 @@ int myFunction(int y);
 * the result
 *
 * Inputs: none
-* Outputs: int 0
+* Outputs: int: 0
 *
 * PSEUDOCODE:
 * Begin
@@ -41,9 +41,9 @@ int main()
 * Summary: This function multiplies a number by 5.
 *
 * Inputs:
-*      y: number to be multiplied by 5
+*      int y: number to be multiplied by 5
 * Outputs:
-*      an integer that is the result of the multiplication
+*      int: an integer that is the result of the multiplication
 *
 * PSEUDOCODE:
 * Begin
