@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int myFunction(int y);
+int myFunction(int x);
 
 /*******************************************************************************
 * Function title: main
@@ -15,21 +15,21 @@ int myFunction(int y);
 * PSEUDOCODE:
 * Begin
 *   initialize value to be operated on
-*   x = myFunction(y)
-*   print x
+*   y = myFunction(x)
+*   print y
 * End
 *******************************************************************************/
 
 int main()
 {
     // initialize value to be operated on
-    int y = 5;
+    int x = 5;
 
     // x = myFunction(y)
-    x = myFunction(y);
+    y = myFunction(x);
 
     // print x
-    printf("X: ", x);
+    printf("Y: ", y);
 
     return 0;
 }
@@ -41,22 +41,22 @@ int main()
 * Summary: This function multiplies a number by 5.
 *
 * Inputs:
-*      int y: number to be multiplied by 5
+*      int x: number to be multiplied by 5
 * Outputs:
 *      int: an integer that is the result of the multiplication
 *
 * PSEUDOCODE:
 * Begin
-*     initialize x to be y * 5
-*     return value of x
+*     initialize y to be x * 5
+*     return value of y
 * End
 *******************************************************************************/
 
-int myFunction(int y)
+int myFunction(int x)
 {
     // initialize x to be y * 5
-    int x = y * 5;
+    int y = x * 5;
 
     // return value of x
-    return x;
+    return y;
 }
