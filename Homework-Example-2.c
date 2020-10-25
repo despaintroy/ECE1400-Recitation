@@ -25,7 +25,7 @@ int main()
     // initialize value to be operated on
     int x = 5;
 
-    // x = myFunction(y)
+    // y = myFunction(x)
     y = myFunction(x);
 
     // print x
@@ -54,9 +54,9 @@ int main()
 
 int myFunction(int x)
 {
-    // initialize x to be y * 5
+    // initialize y to be x * 5
     int y = x * 5;
 
-    // return value of x
+    // return value of y
     return y;
 }
