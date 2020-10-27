@@ -65,21 +65,21 @@ void get_values(int arr[]) {
 void sort(int arr[]) {
 
     // Begin with the start index at 0, then move it up by one each time
-    for (int start_idx=0; start_idx<N-1; start_idx++) {
+    for (int start_index=0; start_index<N-1; start_index++) {
 
         // Reset the min index to be at the start
-        int min_index = start_idx;
+        int min_index = start_index;
 
         // Find index containing the smallest value in unsorted part of array
-        for (int j=start_idx+1; j<N; j++) {
+        for (int j=start_index+1; j<N; j++) {
             if (arr[j] < arr[min_index]) {
                 min_index = j;
             }
         }
 
         // Move the smallest number to the start index by swapping
-        int temp = arr[start_idx];
-        arr[start_idx] = arr[min_index];
+        int temp = arr[start_index];
+        arr[start_index] = arr[min_index];
         arr[min_index] = temp;
     }
 }
