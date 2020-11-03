@@ -1,11 +1,5 @@
 # Compiler Error Messages
 
-## Contents
-
-* [Unexpected... / Expected...](#Unexpected...-/-Expected...)
-
-<br>
-
 ## Overview
 
 ### Error Output Syntax:
