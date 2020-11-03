@@ -33,6 +33,8 @@ int main(void) {
  */
 void compute(int a, int b, int *sum, int *diff, long int *prod, float *quot) {
 
-    // . . . implement compute function here . . .
-
+    *sum = a + b;
+    *diff = a - b;
+    *prod = (long)a * (long)b;
+    *quot = (float)a / (float)b;
 }
