@@ -26,9 +26,9 @@ To run the test, simply call `test_adder()` from the main function. Then you wou
 
 ## Document Setup
 
-1. Create your main, .c, and .h files. The assignment description requires these files be named `RootTable.c`, `MyLinkedList.h`, and `MyLinkedList.c`.
+1. Create your main, .c, and .h files. The assignment description requires these files be named `RootTable.c`, `myLinkedList.h`, and `myLinkedList.c`.
 
-2. Write a simple program where the main function in `RootTable.c` calls another function in `MyLinkedList.c` to print a "Hello World" message. This is just to test that we can compile the files correctly
+2. Write a simple program where the main function in `RootTable.c` calls another function in `myLinkedList.c` to print a "Hello World" message. This is just to test that we can compile the files correctly
 
 3. Create a makefile, then run the simple test program. 
 
