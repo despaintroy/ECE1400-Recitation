@@ -34,7 +34,7 @@ To run the test, simply call `test_adder()` from the main function. Then you wou
 
 <br>
 
-## Nodes
+## Creating Nodes
 
 1. Define a node struct in your header file. It needs to contain both a number (value), and a pointer to the next node (next). Watch the lecture from class on linked lists for more help with how they work if needed.
 
@@ -68,8 +68,24 @@ Watch the lecture from class on linked lists for more help with how they work if
 
 ## File I/O
 
+1. Write the function that reads a list of integers from a file, then simply print the values as they are read.
+
+2. **Unit Test:** Write a unit test that passes a file name to your function, and make sure the integers are printed.
+
+3. Modify your function to add the integers to a linked list instead of printing them.
+
+4. **Unit Test:** Modify the previous unit test to print the linked list that should have been created.
+
+5. Write the function that will output the values in the linked list to a file along with the required calculations.
+
+6. **Unit Test:** Write a unit test that will pass the input and output file names to the function you just write. Look at the output file to ensure this works.
+
 <br>
 
 ## Finishing Up
 
-memory free
+Let's finish up by adding code to the main function!
+
+1. Validate that the file names passed into argv[] exist, then call the appropriate functions you've already wrote to read and write to the files.
+
+2. Make sure you've followed all the program requirements including correct formatting, using malloc and delete, and accepting file names as command line parameters.
