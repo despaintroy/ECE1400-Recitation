@@ -1,5 +1,7 @@
 # Welcome to ECE 1400 Recitation!
 
+<br>
+
 ## What is this?
 
 Use the links above to view sample formatting for homework assignments, and see the examples we do in recitation. 
