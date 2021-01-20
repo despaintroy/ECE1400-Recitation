@@ -40,5 +40,6 @@ int main(void) {
     // Print the result
     printf("The volume of the cube is %d", volume);
 
+    // End
     return 0;
 }

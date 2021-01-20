@@ -4,6 +4,7 @@ This covers very basic usage of the commands we used in recitation as well as a 
 
 Tip: If you get lost in the filesystem in the command line, type `cd` (with a space after) then drag and drop a folder from Windows explorer into Cygwin. This will automatically paste in the correct filepath to that location.
 
+If you have a Mac, you will not use Cygwin. Use the Terminal app that is pre-installed on your computer instead.
 
 <br>
 
@@ -39,7 +40,7 @@ Tip: If you get lost in the filesystem in the command line, type `cd` (with a sp
 ```c
 #include <stdio.h>              // Allow the program to print out
 
-int main() {                    // Tells the program where to start
+int main(void) {                // Tells the program where to start
     printf("Hello World!");     // Print text
     return 0;                   // End the program
 }
